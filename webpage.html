@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crown Oasis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/webpage.css">
+    <link rel = "stylesheet" href = "../Jo-lynn/styles/header.css">
+    <script src="https://kit.fontawesome.com/378d80b8f5.js" crossorigin="anonymous"></script>
+    <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    .borderexample {
+ border-width:3px;
+ border-style:solid;
+ border-color:#287EC7;
+}
+    </style>
+</head>
+<body>
+    <div class="toppage">
+        <!-- <div class="navbar">
+            <div id="logo">
+                <img src="styles/media/purrlogo.png" alt="">
+            </div>
+            <ul id="navbarweb">
+                <li>
+                    <a href="#">ROOMS</a>
+                </li>
+                <li>
+                    <a href="#">RESTAURANTS & BARS</a>
+                </li>
+                <li>
+                    <a href="#">EVENTS & MEETINGS</a>
+                </li>
+                <li>
+                    <a href="#">FACILITIES</a>
+                </li>
+
+                <li>
+                    <a href="contactus.html">CONTACT US</a>
+                </li>
+
+              <li id = "bookingbutton"><a href = "#">BOOK NOW</a></li>
+
+
+            </ul>
+        </div> -->
+
+        <header>
+          <div class = "navigation">
+            <a href = "webpage.html"><img src = "../Jo-lynn/styles/media/logo.png" alt = "logo" class ="logo"></a>
+            <nav>
+
+              <ul>
+                <li><a href = "../Jo-lynn/roomsandsuites.html">ROOMS</a></li>
+                <li><a href = "../Edward/MainDiningPage.html">RESTAURANTS & BARS</a></li>
+                <li><a href = "../Mridula/events.html">EVENTS & MEETINGS</a></li>
+                <li><a href = "../Kavan/facilities.html">FACILITIES</a></li>
+                <li><a href = "contactus.html">CONTACT US</a></li>
+                <li id = "bookingbutton"><a href = "../Jo-lynn/roombooking_selectroom.html">BOOK NOW</a></li>
+              </ul>
+
+            </nav>
+          </div>
+        </header>
+
+
+        <div class="topind">
+          <b><h4 style="text-align:center;">CROWN OASIS &nbsp; &nbsp;WITH NATURE.</h4></b>
+
+
+            </div>
+        </div>
+
+      <form method= "post" action = "../Jo-lynn/roombooking_selectroom.html">
+        <fieldset>
+          <label for = "checkin">Check In Date</label>
+          <input type = "date" id = "checkin" name = "checkin" value = "Check In Date">
+
+          <label for = "checkout">Check Out Date</label>
+          <input type ="date" id = "checkout" name = "checkout">
+
+          <label for = "adults">Number of Adults</label>
+          <select name = "adults" id = "adults">
+            <option value = "1">1</option>
+            <option value = "2">2</option>
+            <option value = "3">3</option>
+            <option value = "4">4</option>
+            <option value = "5">5</option>
+            <option value = "6">6</option>
+            <option value = "7">7</option>
+            <option value = "8">8</option>
+            <option value = "9">9</option>
+            <option value = "10">10</option>
+          </select>
+
+          <label for = "children">Number of Children</label>
+          <select name = "children" id = "children">
+            <option value = "1">1</option>
+            <option value = "2">2</option>
+            <option value = "3">3</option>
+            <option value = "4">4</option>
+            <option value = "5">5</option>
+            <option value = "6">6</option>
+            <option value = "7">7</option>
+            <option value = "8">8</option>
+            <option value = "9">9</option>
+            <option value = "10">10</option>
+          </select>
+
+          <input type ="submit" id ="search" value = "Search">
+        </fieldset>
+      </form>
+    <!-- <fieldset>
+      <label for = "from">From</label>
+      <input type = "date" id = "from" name = "from">
+      <label for = "to">To</label>
+      <input type ="date" id = "to" name = "to">
+      <label for = "adults">Adults</label>
+      <select name = "adult" id = "adult">
+        <option value = "1">1</option>
+        <option value = "2">2</option>
+        <option value = "3">3</option>
+        <option value = "4">4</option>
+        <option value = "5">5</option>
+      </select>
+      <label for = "children">Children</label>
+      <select name = "child" id = "child">
+        <option value = "0">0</option>
+        <option value = "1">1</option>
+        <option value = "2">2</option>
+        <option value = "3">3</option>
+        <option value = "4">4</option>
+        <option value = "5">5</option>
+      </select>
+      <input type="button" onclick="alert('There is no rooms available')" value ="Available Rooms">
+    </fieldset> -->
+
+    <div class="roomabt" id="roomabt">
+      <div id="roomabt1">
+        Welcome to
+      </div>
+        <div id="aintro">Crown Oasis</div>
+         </div>
+
+        <div class="roomabtpic" id="r3"><img src="styles/media/aboutpic.jpg" alt="">
+            <div class="description">
+            The CROWN OASIS in Singapore is the country's first hotel to be located next to a UNESCO World Heritage Site in Singapore's UNESCO PARK. <br></br>
+            This hotel welcomes you as we write with you a new chapter and inject a new life into the hospitality sector of Singapore.
+            <br></br>
+            The hotel focuses on minimalistic and modern vibes that are brought to life via green technologies, biophilic design, iconic architecture, eco-friendliness, and lifestyle experiences, catering to aware and thoughtful travelers.
+          </div><br><br>
+        </div>
+      <hr size="5" width="100%" color="black"><br></br>
+    <div class="rooms" id="rooms">
+        <div id="rsummaryfirst">Whether for business or pleasure, take solace at one of Singapore's top hotels, with over 500 guest rooms with balconies and stunning views of the oasis garden.</div>
+        <div id="rintro">Discover Our Rooms and Suites</div>
+        <div id="rsummarytwo">
+Rated as one of the best ( 4.5 )
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star  "></span>
+        </div>
+        <div class="allroom" id="single"><img src="styles/media/classic.from.jpg" alt="">
+            <div class="description">
+              <b> CLASSIC FAMILY ROOM </b>
+ <p>A spacious room with simple natural light coming your way. Enjoy your favourite reads in a mini, private zen garden.
+
+The main area fits a family of four and a spacious kitchen.<p><br></br<
+                <div class="buttonn">
+                      <button onclick = "window.location.href = '../Jo-lynn/roomsandsuites.html'"> Find out more </button>
+                </div>
+            </div>
+        </div>
+        <div class="allroom" id="deluxe"><img src="styles/media/standroom.jpg" alt="">
+            <div class="description">
+              <b>DOUBLE SINGLE'S ROOM</b>
+            <p>Together with two single beds and other essentials, travellers will have a comfortable and cosy stay.
+             A mini lounge area allows for travellers to unwind or enjoy some entertainment</p><br></br>
+                <div class="buttonn">
+                    <button onclick = "window.location.href = '../Jo-lynn/roomsandsuites.html'"> Find out more </button>
+                </div>
+            </div>
+        </div>
+        <div class="allroom" id="double"><img src="styles/media/readinroom.jpg" alt="">
+            <div class="description">
+              <b>DELUXE SINGLE'S ROOM</b>
+            <p>Equipped with a mini lounge area and spacious walkroom, travellers can relax in this minimalistic room for one.
+              The room has big windows that allow natural light to enter.</p> <br></br>
+                <div class="buttonn">
+                    <button onclick = "window.location.href = '../Jo-lynn/roomsandsuites.html'"> Find out more </button>
+                </div>
+            </div>
+        </div>
+        <div class="allroom" id="suitez"><img src="styles/media/suites.jpg" alt="">
+            <div class="description">
+              <b>SUITES</B>
+              <p>There are two suites available.
+              Suites in the luxury of our spacious area. Unwind and escape to a minimalistic vacation with us. </p> <br></br>
+                    <button onclick = "window.location.href = '../Jo-lynn/roomsandsuites.html'"> Find out more </button>
+                </div>
+              </div>
+
+  <hr size="5" width="100%" color="black"><br></br>
+<div class="rooms" id="rooms">
+    <div id="rsummaryfirst">Set off on a culinary adventure with a choice of award-winning Crown Oasis eateries in Singapore. Enjoy a variety of traditional and exotic flavors to satisfy all palates. </div>
+    <div id="rintro">Restaurant</div>
+              <div id="barnr" class="allroom"><img src="styles/media/bar.jpg" alt="">
+                  <div class="description">
+                      Renowned Chef Steven Lim serves up unique restaurant, bar, and lifestyle ideas with vigor and flawless service at The Crown Oasis Hotel.
+                       From Lounge Light for socializing and leisure to Radiance for taking in the vista of the Gardens <br></br>
+                      <div class="buttonn">
+                          <button onclick = "window.location.href = '../Edward/MainDiningPage.html'"> Find out more </button>
+                      </div>
+            </div>
+        </div>
+    </div>
+    <hr size="5" width="100%" color="black"><br></br>
+
+<div class="rooms" id="rooms">
+    <div id="rsummaryfirst">A welcoming and skilled personnel, as well as relaxing, stress-relieving, and rejuvenating environments</div>
+    <div id="rintro">Facilities & Services</div>
+
+
+              <div id="facilities" class="allroom"><img src="styles/media/swimming.jpg" alt="">
+                  <div class="description">
+                      A wide range of services and amenities are provided to assure your comfort and convenience throughout your visit, whether for business or pleasure.<br></br>
+                          <button onclick = "window.location.href = '../Kavan/Facilities.html'"> Find out more </button>
+                      </div>
+            </div>
+        </div>
+
+        <div id="events" class="allroom"><img src="styles/media/RCSINGA_00122.jpg" alt="">
+            <div class="description">
+                Our events and meetings team is highly expertised to create your wedding or event to your satisfaction. Create an unforgettable experience with us.<br></br>
+                    <button onclick = "window.location.href = '../Mridula/events.html'"> Find out more </button>
+                </div>
+      </div>
+  </div>
+
+
+<hr size="5" width="100%" color="black"><br></br>
+
+<div class="promoz" id="promoz">
+
+    <div id="introz">Our Awards</div>
+  </div>
+<section class="award-section">
+                <div class="row">
+                        <div class="award-item">
+                            <img src="styles/media/award.jpg" alt="">
+                            <p>Singapore Tourism Awards 2020. Singapore’s most prestigious awards for the tourism sector.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="award-item">
+                      <img src="styles/media/award.jpg" alt="">
+
+                      <p>Singapore Customer Service Excellence Award.<br>An outstanding customer service professionals from gazetted hotels who have delivered distinctive and compelling customer experiences.</br></p>
+                  </div>
+</section>
+              <hr size="5" width="100%" color="black"><br></br>
+                <div class="wrapper">
+                  <div class="box">
+                    <span class="fas fa-quote-left quote"></span>
+                    <p>Excellent service, friendly and very supportive staff, well maintained premises, cleaning service is the best, breakfast was not great need to expand menu, add more variety of fruits and vegetables, pastries</p>
+                    <div class="content">
+                      <div class="info">
+                        <div class="name">Edward</div>
+
+                        <div class="stars">
+                          <span class="fas fa-star"></i>
+                            <span class="fas fa-star"></i>
+                          <span class="fas fa-star"></i>
+                          <span class="fas fa-star"></i>
+                          <span class="fas fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <span class="fas fa-quote-left quote"></span>
+                    <p>It was a fantastic staycay and we were surprised by the heated swimming pools which allows the kids to enjoy their swimming in the night.</p>
+                    <div class="content">
+                      <div class="info">
+                        <div class="name">Jolynn</div>
+
+                        <div class="stars">
+                          <span class="fas fa-star"></i>
+                          <span class="fas fa-star"></i>
+                          <span class="fas fa-star"></i>
+                          <span class="far fa-star"></i>
+                          <span class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <span class="fas fa-quote-left  quote"></span>
+                    <p>My family and I had great weekend there, super kind staff and awesome view from 7F. They helped me to prepare my wife’s birthday cake as well. Definitely a good choice of your staycation !</p>
+                    <div class="content">
+                      <div class="info">
+                        <div class="name">Mridula</div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="popbox">
+  <div class="iframeContainer">
+    <div class="toolbarLB">
+      <span class="closeLB" onclick="popboxClose()">x</span>
+    </div>
+  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSingaporeBotanicGardens%2F&tabs=timeline&width=400&height=400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+  </div>
+</div>
+<script>
+popboxClose = function() {
+  document.querySelector(".popbox").classList.add("closed");
+}
+</script>
+
+
+    <footer>
+        <table class = "f-info">
+          <tr>
+            <th>Location</th><th>Our Facilities</th><th>About Us</th>
+          </tr>
+
+          <tr>
+            <td>S675758<br>100 Botanic Gardens<br>65555766</td>
+
+            <td><a href = "../Edward/MainDiningPage.html">Restaurants & Bars</a><br><a href = "../Kavan/Facilities.html">Facilities</a><br><a href = "../Mridula/events.html">Event Rooms</a></td>
+
+            <td><a href = "#">FAQ</a><br><a href = "#">Covid-19 Updates</a><br><a href = "../Edward/review page.html">Online Reviews</a></td>
+          </tr>
+        </table>
+
+        <div class = "a-info">
+          <span class = "a-links">
+            <a href = "#">Privacy Policy</a>
+            <a href = "#">Terms and Conditions</a>
+            <a href = "#">Security</a>
+            <a href = "#">Learn more</a>
+          </span>
+
+          <span class="socials">
+            <a href = "#"><img src = "styles/media/twitter-icon.png" alt = "Twitter" width = "40" height = "40"></a>
+            <a href = "#"><img src = "http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt = "Instagram" width = "40" height = "40"></a>
+            <a href = "#"><img src = "https://logostransparent.com/wp-content/uploads/2022/03/Telegram-Logo-Transparent.png" alt = "Telegram" width = "40" height = "40"></a>
+          </span>
+        </div>
+
+
+    </footer>
+</body>
+</html>

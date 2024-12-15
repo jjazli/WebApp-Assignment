@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Oasis</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/contactus.css">
+    <link rel = "stylesheet" href = "../Jo-lynn/styles/header.css">
+
+    <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    h1 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+
+       .button-container-div {
+           text-align: center;
+           border: 1px solid coral;
+           height: 40vh;
+           width: 50vw;
+       }
+iframe { display:block; }
+
+    </style>
+</head>
+<body>
+      <div class="toppage">
+          <!-- <div class="navbar">
+              <div id="logo">
+                  <img src="media/purrlogo.png" alt="">
+              </div>
+              <ul id="navbarweb">
+                  <li>
+                      <a href="#">Room</a>
+                  </li>
+                  <li>
+                      <a href="#">Restaurant&Bar</a>
+                  </li>
+                  <li>
+                      <a href="#">Event&Meetings</a>
+                  </li>
+                  <li>
+                      <a href="#">Facilities</a>
+                  </li>
+
+                  <li>
+                      <a href="contactus.html">Contact us</a>
+                  </li>
+
+                <li id = "bookingbutton"><a href = "#">BOOK NOW</a></li>
+
+              </div> -->
+
+              <header>
+                <div class = "navigation">
+                  <a href = "webpage.html"><img src = "../Jo-lynn/styles/media/logo.png" alt = "logo" class ="logo"></a>
+                  <nav>
+
+                    <ul>
+                      <li><a href = "../Jo-lynn/roomsandsuites.html">ROOMS</a></li>
+                      <li><a href = "../Edward/MainDiningPage.html">RESTAURANTS & BARS</a></li>
+                      <li><a href = "../Mridula/events.html">EVENTS & MEETINGS</a></li>
+                      <li><a href = "../Kavan/facilities.html">FACILITIES</a></li>
+                      <li><a href = "contactus.html">CONTACT US</a></li>
+                      <li id = "bookingbutton"><a href = "../Jo-lynn/roombooking_selectroom.html">BOOK NOW</a></li>
+                    </ul>
+
+                  </nav>
+                </div>
+
+              </header>
+              <div class="topind">
+                <b><h4 style="text-align:center;">CONTACT US</h4></b>
+            </div>
+              </ul>
+
+
+        <section id="contact-form" class= "py-3">
+            <div class="container">
+              <h1 class="heading">
+                <span class="text">Contact</span> Us</h1>
+          <p>Fill out the form for us to get back to you</p>
+          <form id="form">
+            <fieldset>
+              <div class="form-group">
+              <label for="name"><center>Name</center></label>
+                <input type="text" id="name" placeholder="name" required>
+              </div>
+              <div class="form-group">
+              <label for="email"><center>Email</center></label>
+                <input type="text" id="email" placeholder="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message"><center>Message</center></label>
+                <input type="text" id"message" placeholder="message" required>
+              </div>
+              <div class="form-group">
+          <input type="button" onclick="Submit()" value="Submit">
+        </div>
+        </fieldset>
+          </form>
+
+          <h4>Getting here:<br>
+    By bus: 7,7B,75,77. It is a 5 min talk to Tanglin Gate @Botanic Garden
+    By MRT: Orchard MRT (North-South Line).<br>5 minutes bus ride rfom the station to Tanglin Gate</h4>
+        </div>
+
+      </section>
+
+
+        <iframe id="maps"
+        width="100%"
+        height="300px"
+        padding="0px"
+        margin="0px"
+        frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.535506933315!2d103.81061742379073!3d1.3148688961639714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a1c7ddb60bd%3A0xeadf14903ad3d980!2sSingapore%20Botanic%20Gardens!5e0!3m2!1sen!2ssg!4v1660455534300!5m2!1sen!2ssg" allowfullscreen>
+      </iframe>
+
+
+
+      <footer>
+        <table class = "f-info">
+          <tr>
+            <th>Location</th><th>Our Facilities</th><th>About Us</th>
+          </tr>
+
+          <tr>
+            <td>S675758<br>100 Botanic Gardens<br>65555766</td>
+
+            <td><a href = "../Edward/MainDiningPage.html">Restaurants & Bars</a><br><a href = "../Kavan/Facilities.html">Facilities</a><br><a href = "../Mridula/events.html">Event Rooms</a></td>
+
+            <td><a href = "#">FAQ</a><br><a href = "#">Covid-19 Updates</a><br><a href = "../Edward/review page.html">Online Reviews</a></td>
+          </tr>
+        </table>
+
+        <div class = "a-info">
+          <span class = "a-links">
+            <a href = "#">Privacy Policy</a>
+            <a href = "#">Terms and Conditions</a>
+            <a href = "#">Security</a>
+            <a href = "#">Learn more</a>
+          </span>
+
+          <span class="socials">
+            <a href = "#"><img src = "styles/media/twitter-icon.png" alt = "Twitter" width = "40" height = "40"></a>
+            <a href = "#"><img src = "http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt = "Instagram" width = "40" height = "40"></a>
+            <a href = "#"><img src = "https://logostransparent.com/wp-content/uploads/2022/03/Telegram-Logo-Transparent.png" alt = "Telegram" width = "40" height = "40"></a>
+          </span>
+        </div>
+
+    </footer>
+
+
+        </body>
+
+        <script>
+       var form = document.getElementById('form')
+
+       form.addEventListener('submit',function(event){
+         event.preventDefault()
+
+         var username = document.getElementById("name").value
+         console.log(username)
+
+         var email = document.getElementById("email").value
+         console.log(email)
+
+         var message = document.getElementById("message").value
+         console.log(email)
+       })
+
+  function Submit() {
+    alert("Your form is submitted!");
+}
+</script>
+     </script>
+        </html>

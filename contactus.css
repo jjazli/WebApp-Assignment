@@ -1,0 +1,226 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.buttonn {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.button2 {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+button {
+  background-color:#235347;
+padding: 8px 80px;
+color: ivory;
+margin-top: 22px;
+ cursor: pointer;
+}
+
+.toppage {
+  position: relative;
+  background: url(media/Roberto.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.toppage::before {
+    height: 100%;
+    width: 100%;
+      position: absolute;
+}
+/* #logo {
+  height: 100px;
+  left: 1.25rem;
+    display: flex;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#bookingbutton a{
+  background-color: #51C2A6;
+  color: black;
+  padding: 10px;
+}
+.navbar {
+    padding-top: 15px;
+    position: fixed;
+
+justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #235347;
+    opacity: 1;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    padding: 15px;
+}
+.navbar #navbarweb li a {
+  padding-left: 25px;
+  padding-right: 25px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar #navbarweb li a:hover {
+    opacity: 50%; */
+
+}
+a img:hover {
+    cursor: pointer;
+}
+.topind {
+    flex-direction: column;
+    display: flex;
+    height: 500px;
+    font-size: 50px;
+    bottom: auto;
+    padding-left: -200px;
+
+    font-weight: bold;
+    color:black;
+    align-items:left;
+    justify-content: center;
+}
+
+.topind h4{
+  color: white;
+  border: 3px solid white;
+  width: 30%;
+  margin: 0 auto;
+  background-color: rgba(35, 83, 71, 0.5);
+  padding: 20px;
+}
+
+form{
+  width:50%;
+  margin: 0 auto;
+}
+
+.form-group {
+  text-align: center;
+}
+input[type=text],  textarea {
+  width: 50%;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  height: 600px;
+}
+
+
+fieldset{
+  margin:0 auto;
+  padding: 15px;
+}
+
+fieldset input[type="button"]{
+  padding: 10px 39px;
+  font-weight: bolder;
+  text-align: center;
+}
+*fieldset{
+  margin: 0;
+  padding: 0;
+}
+
+.container h4{
+  text-align: center;
+  margin: 40px auto;
+}
+
+footer{
+  width:100%;
+  height: 250px;
+  background-color: #235347;
+}
+
+
+.f-info table, .f-info th, .f-info td{
+  text-align: left;
+}
+
+.f-info{
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.f-info th, .f-info td{
+  padding-left: 60px;
+  color: white;
+}
+
+.f-info td{
+  padding-top: 10px;
+}
+
+.f-info a{
+  color: white;
+  text-decoration: none;
+}
+
+.f-info a:hover{
+  text-decoration: underline;
+}
+
+.a-info {
+  text-align: center;
+  float: right;
+}
+
+.a-links a{
+  text-decoration: none;
+  color: white;
+  padding: 0 15px 30px 15px;
+}
+
+.a-info a:hover{
+  text-decoration: underline;
+}
+
+.socials{
+  float:right;
+  margin-right: 60px;
+  margin-left: 245px;
+  border: none;
+}
+
+.socials a{
+  margin-left: 5px;
+  margin-right: 5px;
+}
